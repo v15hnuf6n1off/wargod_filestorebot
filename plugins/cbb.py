@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://t.me/v15hnuf6n1x'>Click here</a>\n○ Channel : @Mr_V_bots\n○ Dev : @v15hnuf6n1x \n○ Credits : CodeXBotz</b>",
+            text = f"<b>✑ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://user?id={OWNER_ID}'ᴛʜɪs ᴘᴇʀsᴏɴ</a>\n✑ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://python.org'></a>\n✑ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ ᴀsʏɴᴄɪᴏ {__version__}</a>\n✑ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/v15hnuf6n1x'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✑ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Wargods'>Aɴɪᴍᴇ Wᴀʀɢᴏᴅs</a>\n✑ ᴅᴇᴠ : <a href='https://t.me/Mr_V_bots'> @Mr_V_bots</a></b>",
             disable_web_page_preview = False,
             reply_markup = InlineKeyboardMarkup(
                 [
