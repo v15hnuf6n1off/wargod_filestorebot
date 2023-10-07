@@ -61,7 +61,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = ""
+USER_REPLY_TEXT = "Bot is alive till"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
