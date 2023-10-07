@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "21165589"))
 API_HASH = os.environ.get("API_HASH", "8cc762f4873e84a7cf0cbfd66a07244b")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001635919893"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001971345822"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "2048030675"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "a1pher_files")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "a1pher"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
