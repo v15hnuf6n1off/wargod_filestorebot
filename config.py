@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001794747387"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ🖐 {first}\n\nI ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ғɪʟᴇs ғʀᴏᴍ <ahref='https://t.me/A1pher>ᗩ1ᑭᕼᗴᖇ</a> ᴛᴏ ᴍʏ ғᴀᴍɪʟʏ ᴀɴᴅ ᴛʜᴇʏ ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ᴡɪᴛʜ ᴍʏ ʟɪɴᴋs.")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ🖐 {first}\n\nI ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ғɪʟᴇs ғʀᴏᴍ <a href='https://t.me/A1pher'>ᗩ1ᑭᕼᗴᖇ</a> ᴛᴏ ᴍʏ ғᴀᴍɪʟʏ ᴀɴᴅ ᴛʜᴇʏ ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ᴡɪᴛʜ ᴍʏ ʟɪɴᴋs.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -61,7 +61,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Bot is alive till"
+USER_REPLY_TEXT = ""
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
