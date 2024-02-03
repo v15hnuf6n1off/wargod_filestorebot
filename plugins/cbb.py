@@ -11,7 +11,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     if data == "about":
         await query.message.edit_text(
             text = f"<b>✑ ᴄʀᴇᴀᴛᴏʀ :<a href='https://t.me/user?id={OWNER_ID}'ʏᴏᴜʀ ғʀɪᴇɴᴅ</a>\n✑ ʟᴀɴɢᴜᴀɢᴇ :<a ᴘʏᴛʜᴏɴ</a>\n✑ ʟɪʙʀᴀʀʏ : <a ᴘʏʀᴏɢʀᴀᴍ ᴀsʏɴᴄɪᴏ</a>\n✑ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/v15hnuf6n1x'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✑ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/A1pher>Tᗴᗩᗰ ᗩ1ᑭᕼᗴᖇ</a>\n✑ ᴅᴇᴠ : <a href='https://t.me/Mr_V_bots'>Mr_V_bots</a></b>",
-            disable_web_page_preview = False,
+            disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
