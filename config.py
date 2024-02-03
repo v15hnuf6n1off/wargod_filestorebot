@@ -33,7 +33,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "a1pher_files")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001794747387"))
-
+FORCE_SUB_CHANNEL = int(os.environ.get("FSUB2","0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
