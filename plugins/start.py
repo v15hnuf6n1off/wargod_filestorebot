@@ -122,12 +122,8 @@ REPLY_ERROR = """<code>ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟ
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(
-                "Jᴏɪɴ Mᴀɪɴ 1",
-                url = client.invitelink),
-            InlineKeyboardButton(
-                "Jᴏɪɴ Mᴀɪɴ 2",
-                url = Client.invitelink2)
+            InlineKeyboardButton("Jᴏɪɴ Mᴀɪɴ 1",url = client.invitelink),
+            InlineKeyboardButton("Jᴏɪɴ Mᴀɪɴ 2",url = Client.invitelink2)
         ]
     ]
     try:
@@ -172,7 +168,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<i>Bʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴇssᴀɢᴇ...  ᴛʜɪs ᴘʀᴏᴄᴇss ᴡɪʟʟ ᴛᴀᴋᴇ sᴏᴍᴇ ᴛɪᴍᴇ</i>")
+        pls_wait = await message.reply("<i>Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴇssᴀɢᴇ...  ᴛʜɪs ᴘʀᴏᴄᴇss ᴡɪʟʟ ᴛᴀᴋᴇ sᴏᴍᴇ ᴛɪᴍᴇ</i>")
         for chat_id in query:
             try:
                 await broadcast_msg.copy(chat_id)
